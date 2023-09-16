@@ -1,7 +1,6 @@
 "use client";
 
 import { ThemeProvider } from "next-themes";
-
 export const Providrs = ({ children }) => {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
