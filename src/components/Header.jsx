@@ -4,6 +4,7 @@ import {AiFillHome} from "react-icons/ai";
 // import {FaCircleInfo} from 'react-icons/fa'
 import {BsFillInfoCircleFill} from "react-icons/bs"
 import Link from 'next/link';
+import { DarkModeSwitch } from './DarkModeSwitch';
 export const Header = () => {
   return (
     <div className="flex justify-between max-w-6xl items-center sm:mx-auto mx-2 py-6">
@@ -16,7 +17,8 @@ export const Header = () => {
         />
       </div>
 
-      <div className="">
+      <div className="flex items-center space-x-5">
+        <DarkModeSwitch/>
         <Link href={"/"}>
           <h2>
             <span className="text-2xl bg-amber-500 rounded-lg py-1 px-2">
