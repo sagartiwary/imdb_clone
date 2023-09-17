@@ -18,7 +18,7 @@ export default function Card({ data }) {
             height: "auto",
           }}
           placeholder="blur"
-          blurDataURL="spinner.svg"
+          blurDataURL="/spinner.svg"
           alt="image is not avilable"
         ></Image>
         <div className="p-2">
