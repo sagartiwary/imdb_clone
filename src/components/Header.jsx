@@ -4,6 +4,7 @@ import {AiFillHome} from "react-icons/ai";
 // import {FaCircleInfo} from 'react-icons/fa'
 import {BsFillInfoCircleFill} from "react-icons/bs"
 import Link from 'next/link';
+// import { useRouter } from 'next/router';
 import { DarkModeSwitch } from './DarkModeSwitch';
 export const Header = () => {
   return (
